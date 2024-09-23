@@ -1,4 +1,4 @@
-Design Patterns in Java
+##Design Patterns in Java
 Overview
 This project demonstrates the implementation of various software design patterns in Java. 
 The project includes examples of behavioral, creational, and structural design patterns, each represented by practical use cases. 
