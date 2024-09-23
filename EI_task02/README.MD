@@ -65,24 +65,39 @@ The list of active users is displayed, and users can leave the room or join anot
 6. SOLID Principles: The code adheres to SOLID principles, especially Single Responsibility and Open-Closed principles.
 
 ##Project Structure
-ChatApplication/
-│
-├── src/
-│   ├── main/
-│   │   ├── Client.java         # Entry point of the application
-│   │   ├── ChatRoom.java       # Chat room logic, handles users and messages
-│   │   ├── User.java           # Represents a user in the chat
-│   │   ├── Message.java        # Message class, holds text and sender details
-│   │   ├── ChatRoomManager.java# Singleton manager to handle chat rooms
-│   │   ├── ProtocolAdapter.java# Adapter pattern for different communication protocols
-│   │   └── Logging.java        # Logging utility to track activities
-│   │
-│   ├── patterns/
-│   │   ├── Observer.java       # Observer interface for the Observer Pattern
-│   │   └── Subject.java        # Subject interface for the Observer Pattern
-│   │
-├── bin/                        # Compiled Java classes
-│
-├── README.md                   # Project documentation
-│
-└── LICENSE                     # License information
+task/
+├── behavioral/
+│   ├── observer/
+│   │   ├── Stock.java
+│   │   ├── Observer.java
+│   │   ├── StockUser.java
+│   │   ├── Main.java
+│   └── command/
+│       ├── Command.java
+│       ├── Light.java
+│       ├── LightOnCommand.java
+│       ├── LightOffCommand.java
+│       ├── RemoteControl.java
+│       ├── Main.java
+├── creational/
+│   ├── singleton/
+│   │   └── DatabaseConnection.java
+│   │   └── Main.java
+│   ├── factory/
+│       ├── Shape.java
+│       ├── Circle.java
+│       ├── Square.java
+│       └── ShapeFactory.java
+│       └── Main.java
+├── structural/
+│   ├── adapter/
+│   │   ├── Charger.java
+│   │   ├── EuropeanCharger.java
+│   │   └── ChargerAdapter.java
+│   │   └── Main.java
+│   └── decorator/
+│       ├── TextEditor.java
+│       ├── BasicTextEditor.java
+│       └── SpellCheckDecorator.java
+│       └── Main.java
+
