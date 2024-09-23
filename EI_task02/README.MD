@@ -65,7 +65,6 @@ The list of active users is displayed, and users can leave the room or join anot
 6. SOLID Principles: The code adheres to SOLID principles, especially Single Responsibility and Open-Closed principles.
 
 ##Project Structure
-
 ChatApplication/
 │
 ├── src/
@@ -87,6 +86,3 @@ ChatApplication/
 ├── README.md                   # Project documentation
 │
 └── LICENSE                     # License information
-
-
-
